@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.miranda.edna.a1mirandachavez.Main2Activity">
+
+          <EditText
+            android:id="@+id/edtxmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mes"
+            android:textSize="8sp"  />
+
+        <EditText
+            android:id="@+id/edtxdia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dia"
+            android:textSize="8sp" />
+
+
+        <EditText
+            android:id="@+id/edtxfecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fecha"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxfecha1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fecha1"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/edtxfecha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fecha2"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxfecha3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fecha3"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxdescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/descripcion"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxduracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/duracion"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxhorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/horario"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxordinario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ordinario"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxcosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/costo"
+            android:textSize="8sp"/>
+
+         <EditText
+            android:id="@+id/edtxobjetivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/objetivo"
+             android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxrequerimientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/requerimientos"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxtemario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/temario"
+            android:textSize="8sp"/>
+
+        <EditText
+            android:id="@+id/edtxdireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/direccion"
+            android:textSize="8sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnInsertar"
+                    android:text="@string/insertar"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/btnRegresar"
+                    android:text="@string/regresar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtContenido"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp" />
+
+</LinearLayout>
+
