@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.miranda.edna.a1mirandachavez.MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/llay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:text="@string/bienvenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="@string/instrucciones"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnActualizar"
+                android:text="@string/actualizar"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="363dp"/>
+
+
+            <Spinner
+                android:id="@+id/cboDatos"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            </Spinner>
+
+
+            <Button
+                android:id="@+id/btnproximamente"
+                android:text="@string/proximamente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDetalle"
+                android:text="@string/detalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAgregar"
+                android:text="@string/agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:text="@string/eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:src="@drawable/andyhola"
+                android:contentDescription="@string/texto5"
+                android:layout_width="62dp"
+                android:layout_height="65dp" />
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/datePicker" />
+
+
+            <EditText
+                android:id="@+id/editMesPic"
+                android:layout_height="wrap_content"
+                android:layout_width="43dp"
+                android:inputType="none" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
